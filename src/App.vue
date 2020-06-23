@@ -1,11 +1,17 @@
 <template>
   <div id="app">
-    <Home msg="Welcome to Your Vue.js App" />
-    <Info />
-    <About />
-    <InfoReason />
-    <Contact />
-    <Footer />
+    <div class="container mx-auto text-center h-auto full-width" v-if="isLoading">
+      <RippleLoader color="#235789" />
+    </div>
+
+    <div v-if="!isLoading">
+      <Home />
+      <Info />
+      <About />
+      <InfoReason />
+      <Contact />
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -18,6 +24,8 @@ import About from "./components/About.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
 
+import { RippleLoader } from "vue-spinners-css";
+
 export default {
   name: "App",
   components: {
@@ -26,7 +34,18 @@ export default {
     InfoReason,
     About,
     Contact,
-    Footer
+    Footer,
+    RippleLoader
+  },
+  data() {
+    return {
+      isLoading: true
+    };
+  },
+  mounted() {
+    window.addEventListener("load", () => {
+      this.isLoading = !this.isLoading;
+    });
   }
 };
 </script>

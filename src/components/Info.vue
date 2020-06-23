@@ -1,5 +1,5 @@
 <template>
-  <div id="features" class="mb-6">
+  <div id="whoWeAre" class="mb-6">
     <div class="bg-grey-lightest">
       <div class="container mx-auto px-6 pt-32">
         <h1 class="text-center info-we font-semibold">What we believe</h1>

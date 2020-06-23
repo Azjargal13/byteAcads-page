@@ -1,5 +1,5 @@
 <template>
-  <div id="features" class="mb-6">
+  <div id="whyWe" class="mb-6">
     <div class="bg-grey-lightest">
       <div class="container mx-auto px-6 pt-32">
         <h1 class="text-center font-semibold info-reason">Why ByteAcads?</h1>

@@ -1,5 +1,5 @@
 <template>
-  <div id="features" class="mb-6">
+  <div id="whatWeDo" class="mb-6">
     <div class="bg-grey-lightest">
       <div class="container mx-auto px-6 pt-32">
         <h1 class="text-center font-semibold info-about">What values we give</h1>
@@ -78,6 +78,7 @@
         viewBox="0 0 3841 120"
         xml:space="preserve"
         style="overflow: scroll;"
+        class="curve-svg"
       >
         <path
           data-v-7d15857f
@@ -100,13 +101,28 @@ export default {
 </script>
 <style scoped>
 .outer-flow {
-  width: 100%;
-  height: 150px;
-  position: relative;
   margin-bottom: -12px;
   overflow-x: hidden;
-  -webkit-animation: move-left-data-v-7d15857f 6s linear infinite;
-  animation: move-left-data-v-7d15857f 6s linear infinite;
+}
+
+.curve-svg {
+  width: 250%;
+  overflow: scroll;
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: none;
+}
+@keyframes mymove {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+  }
 }
 .info-about {
   color: #235789;

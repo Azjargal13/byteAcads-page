@@ -1,23 +1,20 @@
 <template>
   <div class="pt-24">
-    <div class="bg-footer">
-      <div class="w-full text-center pt-8 opacity-25">
+    <div class="bg-footer mx-auto">
+      <div class="w-full pt-8">
         <a href="#" v-scroll-to="'#app'">
-          <!-- <img src="./../assets/up-arrow.svg" alt class="h-6" /> -->
+          <img src="./../assets/upArrow.svg" alt class="h-10" />
         </a>
       </div>
 
       <div class="w-full text-center">
-        <div>
-          <!-- <img src="./../assets/pine.svg" alt="Dasos Logo" class="h-16 mt-8" /> -->
-        </div>
-        <div class="text-grey-lightest fond-bold text-2xl">ByteAcads</div>
+        <div class="text-grey-lightest fond-bold text-2xl logoText">ByteAcads</div>
       </div>
       <div class="flex items-start justify-center text-center text-grey-lightest mt-24">
         <div class="md:w-1/5 xs:w-1/3">
           <div class="font-bold text-lg">Services</div>
           <div class="flex flex-col items-center font-thin text-sm opacity-50 mt-4">
-            <a href="#" class="no-underline text-grey-lightest">Personalized tutoring</a>
+            <a href="#" class="no-underline text-black-200">Personalized tutoring</a>
             <a href="#" class="no-underline text-grey-lightest mt-2">Olympiad preparation</a>
             <a href="#" class="no-underline text-grey-lightest mt-2">Peer review</a>
             <a href="#" class="no-underline text-grey-lightest mt-2">Classmate group</a>
@@ -61,5 +58,8 @@ export default {};
 <style scoped>
 .bg-footer {
   background-color: #fbe134;
+}
+.logoText {
+  font-family: "Quicksand", sans-serif;
 }
 </style>
