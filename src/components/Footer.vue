@@ -1,5 +1,5 @@
 <template>
-  <div class>
+  <div>
     <div class="bg-footer">
       <div class="h-auto pt-8 text-center justify-center items-center">
         <a href="#" v-scroll-to="'#app'">
@@ -48,8 +48,9 @@
           <p>All rights reserved.</p>&copy; copyright by
           <a
             href="https://github.com/Azjargal13"
-            class="no-underline text-blue"
-          >ByteAcads in 2020.</a>
+            class="no-underline text-blue hover:text-gray-700"
+          >ByteAcads</a>
+          in 2020.
         </div>
       </div>
     </div>
