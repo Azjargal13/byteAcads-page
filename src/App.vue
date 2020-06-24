@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <div class="container mx-auto text-center h-auto full-width" v-if="isLoading">
+    <div
+      class="container w-auto h-auto"
+      v-if="isLoading"
+      style="top:50%; left:50%; position:absolute"
+    >
       <RippleLoader color="#235789" />
     </div>
 
