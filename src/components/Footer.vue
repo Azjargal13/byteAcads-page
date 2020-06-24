@@ -1,9 +1,9 @@
 <template>
   <div class="pt-24">
-    <div class="bg-footer mx-auto">
-      <div class="w-full pt-8">
+    <div class="bg-footer">
+      <div class="h-auto pt-8 text-center justify-center items-center">
         <a href="#" v-scroll-to="'#app'">
-          <img src="./../assets/upArrow.svg" alt class="h-10" />
+          <img src="./../assets/upArrow.svg" class="h-10 opacity-50" />
         </a>
       </div>
 
@@ -13,9 +13,9 @@
       <div class="flex items-start justify-center text-center text-grey-lightest mt-24">
         <div class="md:w-1/5 xs:w-1/3">
           <div class="font-bold text-lg">Services</div>
-          <div class="flex flex-col items-center font-thin text-sm opacity-50 mt-4">
-            <a href="#" class="no-underline text-black-200">Personalized tutoring</a>
-            <a href="#" class="no-underline text-grey-lightest mt-2">Olympiad preparation</a>
+          <div class="flex flex-col items-center font-thin text-sm mt-4 text-black opacity-75">
+            <a href="#" class="no-underline text-black">Personalized tutoring</a>
+            <a href="#" class="no-underline mt-2">Olympiad preparation</a>
             <a href="#" class="no-underline text-grey-lightest mt-2">Peer review</a>
             <a href="#" class="no-underline text-grey-lightest mt-2">Classmate group</a>
             <a href="#" class="no-underline text-grey-lightest mt-2">Homework evaluation</a>
@@ -23,7 +23,7 @@
         </div>
         <div class="md:w-1/5 xs:w-1/3">
           <div class="font-bold text-lg">Application</div>
-          <div class="flex flex-col items-center font-thin text-sm opacity-50 mt-4">
+          <div class="flex flex-col items-center font-thin text-sm mt-4 text-black opacity-75">
             <a href="#" class="no-underline text-grey-lightest">
               Online learning platform
               <span class="md:inline-block xs:hidden">(web)</span>
@@ -32,7 +32,7 @@
         </div>
         <div class="md:w-1/5 xs:w-1/3">
           <div class="font-bold text-lg">Company</div>
-          <div class="flex flex-col items-center font-thin text-sm opacity-50 mt-4">
+          <div class="flex flex-col items-center font-thin text-sm text-black opacity-75 mt-4">
             <a href="#" class="no-underline text-grey-lightest">About Us</a>
             <a href="#" class="no-underline text-grey-lightest mt-2">Jobs</a>
             <a href="#" class="no-underline text-grey-lightest mt-2">Sitemap</a>

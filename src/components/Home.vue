@@ -1,45 +1,42 @@
 <template>
   <!-- <img src="https://source.unsplash.com/1_CMoFsPfso/1600x900" />
   <img src="https://source.unsplash.com/bF2vsubyHcQ/1600x900" />-->
-  <div class="bg-home">
+  <div class="bg-home h-auto w-auto">
     <header class="container mx-auto">
       <Navigation />
       <div class="pt-16 lg:flex items-center">
-        <div class="lg:w-1/2 text-center">
+        <div class="lg:w-4/6">
           <img
             src="./../assets/online.svg"
             alt="image"
-            class="xl:bgImg lg:h-150 md:h-120 sm:h-100 xs:h-100"
+            class="xl:h-auto lg:h-150 md:h-120 sm:h-100 xs:h-100"
           />
         </div>
-        <div class="w-auto xs:m-0 md:m-1 md:pl-24 md:pr-24 justify-center">
+        <div class="lg:w-full xs:m-0 md:m-1 md:pl-24 md:pr-24 justify-center">
           <h1
-            class="text-primary font-medium lg:text-5xl md:text-3xl sm:text-xl xs:text-lg mb-4 lg:w-5/5 text-center"
-          >Welcome to ByteAcads!</h1>
+            class="text-white font-medium font-serif lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl mb-4 lg:w-5/5 text-center"
+          >Welcome to ByteAcads</h1>
 
           <h4
-            class="text-primary font-medium lg:text-2xl md:text-2xl sm:text-xl xs:text-lg mb-4 lg:w-5/5 text-center"
+            class="text-gray-400 font-thin lg:text-2xl md:text-2xl sm:text-xl xs:text-lg mb-4 lg:w-5/5 text-center"
           >EdTech</h4>
           <h5
-            class="text-primary font-medium lg:text-3xl md:text-2xl sm:text-xl xs:text-lg mb-4 lg:w-5/5 text-center"
+            class="text-white font-medium lg:text-3xl md:text-2xl sm:text-xl xs:text-lg mb-4 lg:w-5/5 text-center"
           >Quality K-12 education for every child</h5>
           <div
-            class="text-primary opacity-90 mt-8 text-justify lg:text-xl lg:w-5/5 md:text-md sm:text-sm xs:text-sm"
-          >Online learning platform which helps primary and secondary school students to discover their own interests and support them to fulfill their future endeavors.</div>
+            class="text-gray-400 font-light mt-8 text-justify lg:text-xl lg:w-5/5 md:text-md sm:text-sm xs:text-sm"
+          >Online learning platform which helps primary and secondary school students to discover their own interests and support them to fulfill their future endeavors through quality education.</div>
         </div>
       </div>
     </header>
-    <!-- <div data-v-7d15857f class="curve-shape">
-      <svg data-v-7d15857f x="0px" y="0px" viewBox="0 0 3841 120" xml:space="preserve">
+    <div style="height: 150px; overflow: hidden;" class="mt-32">
+      <svg viewBox="0 0 150 50" preserveAspectRatio="none" style="height: 100%; width: 100%;">
         <path
-          data-v-7d15857f
-          d="M3360.5,97.739c-242,0-480-48.375-480-48.375
-                        S2647.5,0.5,2400.5,0.5s-480,48.375-480,48.375s-238,48.864-480,48.864s-480-48.375-480-48.375S727.5,0.5,480.5,0.5
-                        S0.5,48.875,0.5,48.875V108h1920h1920V48.875C3840.5,48.875,3602.5,97.739,3360.5,97.739z"
-          style="fill: rgb(255, 255, 255); stroke-miterlimit: 10;"
+          d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z"
+          style="stroke: none;fill: white;"
         />
       </svg>
-    </div>-->
+    </div>
   </div>
 </template>
 
@@ -56,7 +53,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .bg-home {
-  /* background-color: #235789; */
-  height: 600px;
+  background-color: #235789;
 }
 </style>

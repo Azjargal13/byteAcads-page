@@ -1,23 +1,34 @@
 <template>
   <div id="whatWeDo" class="mb-6">
     <div class="bg-grey-lightest">
-      <div class="container mx-auto px-6 pt-32">
-        <h1 class="text-center font-semibold info-about">What values we give</h1>
+      <div class="container mx-auto px-6 pt-20 pb-12">
+        <h1 class="text-center info-about font-semibold">What we do</h1>
+        <div class="items-center mt-10">
+          <p
+            class="text-black font-base text-l text-center px-6 py-6"
+          >We develop an online learning platform which serves the objective to be reached to school students need.</p>
+        </div>
+      </div>
 
+      <div class="container mx-auto px-6 pt-32">
+        <h1 class="text-center font-semibold info-about">What values we provide</h1>
+        <p
+          class="text-center px-6 py-6 mt-10"
+        >We aspire our learning platform can give valuable experience to each of our users.</p>
         <div class="flex md:flex-no-wrap xs:flex-wrap items-center justify-center mt-24">
           <div class="px-6 py-6 m-2 text-center hover:shadow-lg">
             <img src="./../assets/teacher.svg" alt="tutoring " class="info-about-img mb-4" />
-            <h3 class="mb-4 text-2xl opacity-60">Personalized tutoring</h3>
+            <h3 class="mb-4 text-2xl opacity-75">Personalized tutoring</h3>
             <p
-              class="text-black font-base text-sm opacity-50"
-            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim urna eu eros facilisis commodo. Pellentesque nec sem.</p>
+              class="text font-base text-sm opacity-75"
+            >One to one online personalized tutoring with experienced teachers.</p>
           </div>
           <div class="px-6 py-6 m-2 text-center hover:shadow-lg">
             <img src="./../assets/study.svg" alt="study" class="info-about-img mb-4" />
-            <h3 class="mb-4 text-2xl opacity-60">International exam/Olympiads preparation</h3>
+            <h3 class="mb-4 text-2xl opacity-60">International Olympiads, exams preparation</h3>
             <p
-              class="text-black font-base text-sm opacity-50"
-            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim urna eu eros facilisis commodo. Pellentesque nec sem.</p>
+              class="text-black font-base text-sm opacity-75"
+            >Prepare international exams and Olympiads by discussing with teachers and using quality materials.</p>
           </div>
         </div>
         <div class="flex md:flex-no-wrap xs:flex-wrap items-center justify-center xs:mt-0">
@@ -26,22 +37,22 @@
               <img src="./../assets/group.svg" alt="peer " class="info-about-img mb-4" />
               <h3 class="mb-4 text-2xl opacity-60">Peer review</h3>
               <p
-                class="text-black font-base text-sm opacity-50"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim urna eu eros facilisis commodo. Pellentesque nec sem.</p>
+                class="text-black font-base text-sm opacity-75"
+              >Review friends study notes, materials and help each other.</p>
             </div>
             <div class="px-12 py-12 m-4 text-center hover:shadow-lg">
               <img src="./../assets/classmate.svg" alt="classmate " class="info-about-img mb-4" />
               <h3 class="mb-4 text-2xl opacity-60">Classmate group</h3>
               <p
-                class="text-black font-thin text-xs opacity-50"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim urna eu eros facilisis commodo. Pellentesque nec sem.</p>
+                class="text-black font-base text-sm opacity-75"
+              >Form a group, discuss subjects and share study materials.</p>
             </div>
             <div class="px-12 py-12 m-4 text-center hover:shadow-lg">
               <img src="./../assets/evaluation.svg" alt="homework " class="info-about-img mb-4" />
-              <h3 class="mb-4 text-2xl opacity-60">Homework evaluation</h3>
+              <h3 class="mb-4 text-2xl opacity-60">Homework/Test evaluation</h3>
               <p
-                class="text-black font-thin text-xs opacity-50"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim urna eu eros facilisis commodo. Pellentesque nec sem.</p>
+                class="text-black font-base text-sm opacity-75"
+              >Teachers evaluate homework and exam, provide feedback to each student.</p>
             </div>
           </div>
           <div class="flex-1">
@@ -49,22 +60,22 @@
               <img src="./../assets/feedback.svg" alt="feedback" class="info-about-img mb-4" />
               <h3 class="mb-4 text-2xl opacity-60">Feedback from teacher</h3>
               <p
-                class="text-black font-thin text-xs opacity-50"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim urna eu eros facilisis commodo. Pellentesque nec sem.</p>
+                class="text-black font-base text-sm opacity-75"
+              >Receive feedback from teacher on given assignments and clarify doubts.</p>
             </div>
             <div class="px-12 py-12 m-4 text-center hover:shadow-lg">
               <img src="./../assets/materials.svg" alt="materials " class="info-about-img mb-4" />
               <h3 class="mb-4 text-2xl opacity-60">Diverse study materials</h3>
               <p
-                class="text-black font-thin text-xs opacity-50"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim urna eu eros facilisis commodo. Pellentesque nec sem.</p>
+                class="text-black font-base text-sm opacity-75"
+              >Freely access various study materials such as book, notes, online lessons.</p>
             </div>
             <div class="px-12 py-12 m-4 text-center hover:shadow-lg">
               <img src="./../assets/scholar.svg" alt="scholarship" class="info-about-img mb-4" />
               <h3 class="mb-4 text-2xl opacity-60">Open information for scholarships</h3>
               <p
-                class="text-black font-thin text-xs opacity-50"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim urna eu eros facilisis commodo. Pellentesque nec sem.</p>
+                class="text-black font-base text-sm opacity-75"
+              >Latest national or international scholarship information</p>
             </div>
           </div>
         </div>

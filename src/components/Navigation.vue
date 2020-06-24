@@ -18,11 +18,14 @@
         </svg>
       </button>
     </div>
-    <div class="w-full lg:flex items-center lg:w-auto sm:block" v-bind:class="{'xs:hidden': menu}">
+    <div
+      class="w-full text-gray-400 lg:flex items-center lg:w-auto sm:block"
+      v-bind:class="{'xs:hidden': menu}"
+    >
       <a
         href="#"
         v-scroll-to="'#whoWeAre'"
-        class="block mt-4 lg:inline-block lg:mt-0 sm:text-right font-medium no-underline text-grey-lightest hover:text-main-green mr-4"
+        class="block mt-4 lg:inline-block lg:mt-0 sm:text-right font-medium no-underline hover:text-main-green mr-4"
       >who we are</a>
       <a
         href="#"
