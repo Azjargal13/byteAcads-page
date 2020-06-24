@@ -1,5 +1,5 @@
 <template>
-  <div id="whatWeDo" class="mb-6">
+  <div id="whatWeDo" class="mb-1">
     <div class="bg-grey-lightest">
       <div class="container mx-auto px-6 pt-20 pb-12">
         <h1 class="text-center info-about font-semibold">What we do</h1>
@@ -18,14 +18,14 @@
         <div class="flex md:flex-no-wrap xs:flex-wrap items-center justify-center mt-24">
           <div class="px-6 py-6 m-2 text-center hover:shadow-lg">
             <img src="./../assets/teacher.svg" alt="tutoring " class="info-about-img mb-4" />
-            <h3 class="mb-4 text-2xl opacity-75">Personalized tutoring</h3>
+            <h3 class="mb-4 text-2xl">Personalized tutoring</h3>
             <p
               class="text font-base text-sm opacity-75"
             >One to one online personalized tutoring with experienced teachers.</p>
           </div>
           <div class="px-6 py-6 m-2 text-center hover:shadow-lg">
             <img src="./../assets/study.svg" alt="study" class="info-about-img mb-4" />
-            <h3 class="mb-4 text-2xl opacity-60">International Olympiads, exams preparation</h3>
+            <h3 class="mb-4 text-2xl">International Olympiads, exams preparation</h3>
             <p
               class="text-black font-base text-sm opacity-75"
             >Prepare international exams and Olympiads by discussing with teachers and using quality materials.</p>

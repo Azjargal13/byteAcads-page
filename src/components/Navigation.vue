@@ -19,7 +19,7 @@
       </button>
     </div>
     <div
-      class="w-full text-gray-400 lg:flex items-center lg:w-auto sm:block"
+      class="w-full text-gray-200 lg:flex items-center lg:w-auto sm:block"
       v-bind:class="{'xs:hidden': menu}"
     >
       <a

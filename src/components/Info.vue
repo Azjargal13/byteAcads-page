@@ -1,9 +1,9 @@
 <template>
-  <div id="whoWeAre" class="mb-6">
-    <div class="bg-grey-lightest">
-      <div class="container mx-auto px-6 pt-20 shadow-lg pb-12">
+  <div id="whoWeAre" class="mb-6 bg-gray-100 shadow-lg">
+    <div class>
+      <div class="container mx-auto px-6 pt-20 pb-12">
         <h1 class="text-center info-we font-semibold">Who we are</h1>
-        <div class="items-center mt-10">
+        <div class="items-center mt-10 opacity-75">
           <p
             class="text-black font-base text-l text-center px-6 py-6"
           >We are a dedicated team who appreciates education and truly believes quality education can contribute to finding one’s hidden interests or talents which shape their bright future.</p>
@@ -12,24 +12,24 @@
           >We devote to provide an equal education for primary and secondary school students regardless of their social status.</p>
         </div>
       </div>
-      <div class="container mx-auto px-6 pt-32 shadow-lg">
+      <div class="container mx-auto px-6 pt-32">
         <h1 class="text-center info-we font-semibold">What we believe</h1>
         <div class="items-center justify-center mt-10">
           <img src="./../assets/children.svg" alt="children " class="info-img mb-4" />
           <h2
-            class="text-black font-base text-xl text-center px-6 py-6"
+            class="text-black font-base text-l text-center px-6 py-6 opacity-75"
           >We believe that children are the leader of the future.</h2>
         </div>
         <div class="items-center justify-center mt-20">
           <img src="./../assets/support.svg" alt="support " class="info-img mb-4" />
           <h2
-            class="text-black font-base text-xl text-center px-6 py-6"
+            class="text-black font-base text-l text-center px-6 py-6 opacity-75"
           >Our role is to guide and help them to reach their potential and to support and prepare them to become their better self by providing easy accessible, high quality education regardless of their social status.</h2>
         </div>
         <div class="items-center justify-center mt-20 mb-20">
           <img src="./../assets/certification.svg" alt="free-edu " class="info-img mb-4" />
           <h2
-            class="text-black font-base text-xl text-center px-6 py-6"
+            class="text-black font-base text-l text-center px-6 py-6 opacity-75"
           >Fundamental education should reach to every kid free of charge no matter where they live.</h2>
         </div>
       </div>

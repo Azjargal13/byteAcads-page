@@ -1,13 +1,17 @@
 <template>
-  <div class="pt-24">
+  <div class>
     <div class="bg-footer">
       <div class="h-auto pt-8 text-center justify-center items-center">
         <a href="#" v-scroll-to="'#app'">
-          <img src="./../assets/upArrow.svg" class="h-10 opacity-50" />
+          <img
+            src="./../assets/upArrow.svg"
+            class="h-8 opacity-50"
+            style="left:49%; position:absolute"
+          />
         </a>
       </div>
 
-      <div class="w-full text-center">
+      <div class="w-full text-center mt-12">
         <div class="text-grey-lightest fond-bold text-2xl logoText">ByteAcads</div>
       </div>
       <div class="flex items-start justify-center text-center text-grey-lightest mt-24">
