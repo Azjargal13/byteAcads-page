@@ -1,7 +1,7 @@
 <template>
   <div>
-    <sequential-entrance fromBottom delay="5000">
-      <div class="bg-footer">
+    <div class="bg-footer">
+      <sequential-entrance fromBottom delay="2500" tag="div">
         <div class="h-auto pt-8 text-center justify-center items-center">
           <a href="#" v-scroll-to="'#app'">
             <img
@@ -59,8 +59,8 @@
             in 2020.
           </div>
         </div>
-      </div>
-    </sequential-entrance>
+      </sequential-entrance>
+    </div>
   </div>
 </template>
 

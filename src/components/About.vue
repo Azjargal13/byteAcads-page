@@ -2,7 +2,7 @@
   <div id="whatWeDo" class="mb-1">
     <div class="bg-grey-lightest">
       <div class="container mx-auto px-6 pt-20 pb-12">
-        <sequential-entrance fromBottom delay="1500">
+        <sequential-entrance fromBottom delay="1500" tag="div">
           <h1 class="text-center info-about font-semibold">What we do</h1>
 
           <div class="items-center mt-10">
@@ -14,7 +14,7 @@
       </div>
 
       <div class="container mx-auto px-6 pt-32">
-        <sequential-entrance fromBottom delay="2500">
+        <sequential-entrance fromBottom delay="2000" tag="div">
           <h1 class="text-center font-semibold info-about">What values we provide</h1>
           <p
             class="text-center px-6 py-6 mt-10"

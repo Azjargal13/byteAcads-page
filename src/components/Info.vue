@@ -16,7 +16,7 @@
       </div>
 
       <div class="container mx-auto px-6 pt-32">
-        <sequential-entrance fromBottom delay="1100">
+        <sequential-entrance fromBottom delay="1100" tag="div">
           <h1 class="text-center info-we font-semibold">What we believe</h1>
           <div class="items-center justify-center mt-10">
             <img src="./../assets/children.svg" alt="children " class="info-img mb-4" />

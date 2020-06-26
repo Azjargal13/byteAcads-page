@@ -2,7 +2,7 @@
   <div id="whyWe" class>
     <div class="bg-gray-100 pb-10">
       <div class="container mx-auto px-6 pt-32">
-        <sequential-entrance fromBottom delay="4000">
+        <sequential-entrance fromBottom delay="4000" tag="div">
           <h1 class="text-center font-semibold info-reason">Why ByteAcads?</h1>
           <div class="flex mt-16 p-4 mx-auto my-auto text-gray-600 font-light text-center text-xl">
             <div class="flex-2">
