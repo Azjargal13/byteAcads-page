@@ -2,7 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import '@/assets/css/tailwind.css'
 import VueScrollTo from 'vue-scrollto'
-
+import SequentialEntrance from 'vue-sequential-entrance'
+import 'vue-sequential-entrance/vue-sequential-entrance.css'
+Vue.use(SequentialEntrance);
 Vue.config.productionTip = false
 
 Vue.use(VueScrollTo, {
