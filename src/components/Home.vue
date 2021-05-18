@@ -13,30 +13,32 @@
           />
         </div>
         <div class="lg:w-full xs:m-0 md:m-1 md:pl-24 md:pr-24 justify-center">
-          <h1
-            class="text-white font-medium font-serif lg:text-5xl md:text-4xl sm:text-3xl xs:text-2xl mb-4 lg:w-5/5 text-center"
-          >Welcome to ByteAcads</h1>
+          <p
+            class="text-white font-medium font-serif text-3xl lg:text-5xl md:text-4xl xs:text-2xl mb-4 lg:w-5/5 text-center"
+          >
+            Welcome to ByteAcads
+          </p>
 
           <h4
-            class="text-gray-400 font-thin lg:text-2xl md:text-2xl sm:text-xl xs:text-lg mb-4 lg:w-5/5 text-center"
-          >EdTech</h4>
+            class="text-gray-400 font-thin text-xl lg:text-2xl md:text-2xl xs:text-lg mb-4 lg:w-5/5 text-center"
+          >
+            EdTech
+          </h4>
           <h5
-            class="text-white font-medium lg:text-3xl md:text-2xl sm:text-xl xs:text-lg mb-4 lg:w-5/5 text-center"
-          >Quality K-12 education for every child</h5>
+            class="text-white font-medium lg:text-3xl trxt-xl md:text-2xl xs:text-lg mb-4 lg:w-5/5 text-center sm:pa-5"
+          >
+            Quality K-12 education for every child
+          </h5>
           <div
-            class="text-gray-400 font-light mt-8 text-justify lg:text-xl lg:w-5/5 md:text-md sm:text-sm xs:text-sm"
-          >Online learning platform which helps primary and secondary school students to discover their own interests and support them to fulfill their future endeavors through quality education.</div>
+            class="text-gray-400 font-light mt-8 px-8 text-justify pb-8 text-md lg:text-xl lg:w-5/5 md:text-md xs:text-sm"
+          >
+            Online learning platform which helps primary and secondary school
+            students to discover their own interests and support them to fulfill
+            their future endeavors through quality education.
+          </div>
         </div>
       </div>
     </header>
-    <div style="height: 150px; overflow: hidden;" class="mt-32">
-      <!-- <svg viewBox="0 0 150 50" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-        <path
-          d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z"
-          style="stroke: none;fill: white;"
-        />
-      </svg>-->
-    </div>
   </div>
 </template>
 
@@ -45,8 +47,8 @@ import Navigation from "./Navigation.vue";
 export default {
   name: "Home",
   components: {
-    Navigation
-  }
+    Navigation,
+  },
 };
 </script>
 
