@@ -12,7 +12,9 @@
             class="xl:h-auto lg:h-150 md:h-120 sm:h-100 xs:h-100"
           />
         </div>
-        <div class="lg:w-full xs:m-0 md:m-1 md:pl-24 md:pr-24 justify-center">
+        <div
+          class="lg:w-full xs:m-0 md:m-1 md:pl-24 md:pr-24 justify-center pt-8"
+        >
           <p
             class="text-white font-medium font-serif text-3xl lg:text-5xl md:text-4xl xs:text-2xl mb-4 lg:w-5/5 text-center"
           >
