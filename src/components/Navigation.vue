@@ -93,4 +93,10 @@ option {
   background: yellow;
   color: black;
 }
+@media (max-width: 632px) {
+  option {
+    font-size: smaller;
+    background: transparent;
+  }
+}
 </style>
