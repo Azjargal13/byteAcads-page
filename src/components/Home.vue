@@ -1,7 +1,7 @@
 <template>
   <!-- <img src="https://source.unsplash.com/1_CMoFsPfso/1600x900" />
   <img src="https://source.unsplash.com/bF2vsubyHcQ/1600x900" />-->
-  <div class="bg-home h-auto w-auto">
+  <div class="bg-home h-auto w-auto lg:h-screen">
     <header class="container mx-auto">
       <Navigation />
       <div class="pt-16 lg:flex items-center">
@@ -27,7 +27,7 @@
             {{ $t("type") }}
           </h4>
           <h5
-            class="text-white font-medium lg:text-3xl trxt-xl md:text-2xl xs:text-lg mb-4 lg:w-5/5 text-center sm:pa-5"
+            class="text-white font-medium lg:text-3xl trxt-xl md:text-2xl xs:text-lg mb-4 lg:w-5/5 text-center sm:pa-5 shortIntro"
           >
             {{ $t("shortIntro") }}
           </h5>
@@ -58,5 +58,8 @@ export default {
 <style scoped>
 .bg-home {
   background-color: #235789;
+}
+.shortIntro {
+  height: 70px;
 }
 </style>
