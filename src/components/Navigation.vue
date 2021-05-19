@@ -46,6 +46,12 @@
         >why ByteAcads?</a
       >
     </nav>
+    <nav class="text-yellow-300 font-medium">
+      <select class="langSwitch" v-model="$i18n.locale">
+        <option selected value="mn">Монгол</option>
+        <option value="en">English</option>
+      </select>
+    </nav>
   </div>
 </template>
 
@@ -56,6 +62,11 @@ export default {
     return {
       menu: false,
     };
+  },
+  watch: {
+    locale(val) {
+      this.$i18n.locale = val;
+    },
   },
   methods: {
     toggleMenu() {
@@ -72,5 +83,14 @@ export default {
 }
 .nav-menu-mb {
   flex-direction: column;
+}
+.langSwitch {
+  background: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+option {
+  background: yellow;
+  color: black;
 }
 </style>

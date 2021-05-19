@@ -18,18 +18,18 @@
           <p
             class="text-white font-medium font-serif text-3xl lg:text-5xl md:text-4xl xs:text-2xl mb-4 lg:w-5/5 text-center"
           >
-            Welcome to ByteAcads
+            {{ $t("name") }}
           </p>
 
           <h4
             class="text-gray-400 font-thin text-xl lg:text-2xl md:text-2xl xs:text-lg mb-4 lg:w-5/5 text-center"
           >
-            EdTech
+            {{ $t("type") }}
           </h4>
           <h5
             class="text-white font-medium lg:text-3xl trxt-xl md:text-2xl xs:text-lg mb-4 lg:w-5/5 text-center sm:pa-5"
           >
-            Quality K-12 education for every child
+            {{ $t("shortIntro") }}
           </h5>
           <div
             class="text-gray-400 font-light mt-8 px-8 text-justify pb-8 text-md lg:text-xl lg:w-5/5 md:text-md xs:text-sm"
