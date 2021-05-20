@@ -3,20 +3,17 @@
     <div class>
       <div class="container mx-auto px-6 pt-20 pb-12">
         <sequential-entrance fromBottom delay="1300">
-          <h1 class="text-center info-we font-semibold">Who we are</h1>
+          <h1 class="text-center info-we font-semibold">{{ $t("title1") }}</h1>
           <div class="items-center mt-10 opacity-75">
             <p
               class="text-black font-base text-l md:text-center lg:text-center px-6 py-6 text-justify"
             >
-              We are a dedicated team who appreciates education and truly
-              believes quality education can contribute to finding one’s hidden
-              interests or talents which shape their bright future.
+              {{ $t("introsub1") }}
             </p>
             <p
               class="text-black font-base text-l lg:text-center md:text-center text-justify px-6 py-6"
             >
-              We devote to provide an equal education for primary and secondary
-              school students regardless of their social status.
+              {{ $t("introsub2") }}
             </p>
           </div>
         </sequential-entrance>
@@ -24,7 +21,7 @@
 
       <div class="container mx-auto px-6 pt-20">
         <sequential-entrance fromBottom delay="1100" tag="div">
-          <h1 class="text-center info-we font-semibold">What we believe</h1>
+          <h1 class="text-center info-we font-semibold">{{ $t("title2") }}</h1>
           <div class="items-center justify-center mt-10">
             <img
               src="./../assets/children.svg"
@@ -34,7 +31,7 @@
             <h2
               class="text-black font-base text-l lg:text-center md:text-center text-justify  px-6 py-6 opacity-75"
             >
-              We believe that children are the leader of the future.
+              {{ $t("introsub3") }}
             </h2>
           </div>
           <div class="items-center justify-center mt-20">
@@ -46,10 +43,7 @@
             <h2
               class="text-black font-base text-l lg:text-center md:text-center text-justify  px-6 py-6 opacity-75"
             >
-              Our role is to guide and help them to reach their potential and to
-              support and prepare them to become their better self by providing
-              easy accessible, high quality education regardless of their social
-              status.
+              {{ $t("introsub4") }}
             </h2>
           </div>
           <div class="items-center justify-center mt-20 mb-20">
@@ -61,8 +55,7 @@
             <h2
               class="text-black font-base text-llg:text-center md:text-center text-justify  px-6 py-6 opacity-75"
             >
-              Fundamental education should reach to every kid free of charge no
-              matter where they live.
+              {{ $t("introsub5") }}
             </h2>
           </div>
         </sequential-entrance>

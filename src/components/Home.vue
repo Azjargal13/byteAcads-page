@@ -34,9 +34,7 @@
           <div
             class="text-gray-400 font-light mt-8 px-8 text-justify pb-8 text-md lg:text-xl lg:w-5/5 md:text-md xs:text-sm"
           >
-            Online learning platform which helps primary and secondary school
-            students to discover their own interests and support them to fulfill
-            their future endeavors through quality education.
+            {{ $t("bannerIntro") }}
           </div>
         </div>
       </div>

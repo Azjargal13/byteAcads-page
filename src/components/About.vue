@@ -3,12 +3,13 @@
     <div class="bg-grey-lightest">
       <div class="container mx-auto px-6 pt-20 pb-12">
         <sequential-entrance fromBottom delay="1500" tag="div">
-          <h1 class="text-center info-about font-semibold">What we do</h1>
+          <h1 class="text-center info-about font-semibold">
+            {{ $t("title3") }}
+          </h1>
 
           <div class="items-center mt-10">
             <p class="text-black font-base text-l text-center px-6 py-6">
-              We develop an online learning platform which serves the objective
-              to be reached to school students need.
+              {{ $t("introsub6") }}
             </p>
           </div>
         </sequential-entrance>
@@ -17,11 +18,10 @@
       <div class="container mx-auto px-6 pt-32">
         <sequential-entrance fromBottom delay="2000" tag="div">
           <h1 class="text-center font-semibold info-about">
-            What values we provide
+            {{ $t("title4") }}
           </h1>
           <p class="text-center px-6 py-6 mt-10">
-            We aspire our learning platform can give valuable experience to each
-            of our users.
+            {{ $t("introsub7") }}
           </p>
 
           <div
@@ -35,10 +35,9 @@
                 alt="tutoring "
                 class="info-about-img mb-4"
               />
-              <h3 class="mb-4 text-2xl">Personalized tutoring</h3>
+              <h3 class="mb-4 text-2xl">{{ $t("subTitle1") }}</h3>
               <p class="text font-base text-sm opacity-75">
-                One to one online personalized tutoring with experienced
-                teachers.
+                {{ $t("subDesc1") }}
               </p>
             </div>
             <div
@@ -50,11 +49,10 @@
                 class="info-about-img mb-4"
               />
               <h3 class="mb-4 text-2xl">
-                International Olympiads, exams preparation
+                {{ $t("subTitle2") }}
               </h3>
               <p class="text-black font-base text-sm opacity-75">
-                Prepare international exams and Olympiads by discussing with
-                teachers and using quality materials.
+                {{ $t("subDesc2") }}
               </p>
             </div>
           </div>
@@ -70,9 +68,9 @@
                 alt="peer "
                 class="info-about-img mb-4"
               />
-              <h3 class="mb-4 text-2xl opacity-60">Peer review</h3>
+              <h3 class="mb-4 text-2xl opacity-60">{{ $t("subTitle3") }}</h3>
               <p class="text-black font-base text-sm opacity-75">
-                Review friends study notes, materials and help each other.
+                {{ $t("subDesc3") }}
               </p>
             </div>
             <div
@@ -83,9 +81,9 @@
                 alt="classmate "
                 class="info-about-img mb-4"
               />
-              <h3 class="mb-4 text-2xl opacity-60">Classmate group</h3>
+              <h3 class="mb-4 text-2xl opacity-60">{{ $t("subTitle4") }}</h3>
               <p class="text-black font-base text-sm opacity-75">
-                Form a group, discuss subjects and share study materials.
+                {{ $t("subDesc4") }}
               </p>
             </div>
           </div>
@@ -101,11 +99,10 @@
                 class="info-about-img mb-4"
               />
               <h3 class="mb-4 text-2xl opacity-60">
-                Homework/Test evaluation
+                {{ $t("subTitle5") }}
               </h3>
               <p class="text-black font-base text-sm opacity-75">
-                Teachers evaluate homework and exam, provide feedback to each
-                student.
+                {{ $t("subDesc5") }}
               </p>
             </div>
 
@@ -117,10 +114,9 @@
                 alt="feedback"
                 class="info-about-img mb-4"
               />
-              <h3 class="mb-4 text-2xl opacity-60">Feedback from teacher</h3>
+              <h3 class="mb-4 text-2xl opacity-60">{{ $t("subTitle6") }}</h3>
               <p class="text-black font-base text-sm opacity-75">
-                Receive feedback from teacher on given assignments and clarify
-                doubts.
+                {{ $t("subDesc6") }}
               </p>
             </div>
           </div>
@@ -136,11 +132,10 @@
                 class="info-about-img mb-4"
               />
               <h3 class="mb-4 text-2xl opacity-60">
-                Diverse study materials
+                {{ $t("subTitle7") }}
               </h3>
               <p class="text-black font-base text-sm opacity-75">
-                Freely access various study materials such as book, notes,
-                online lessons.
+                {{ $t("subDesc7") }}
               </p>
             </div>
             <div
@@ -152,10 +147,10 @@
                 class="info-about-img mb-4"
               />
               <h3 class="mb-4 text-2xl opacity-60">
-                Open information for scholarships
+                {{ $t("subTitle8") }}
               </h3>
               <p class="text-black font-base text-sm opacity-75">
-                Latest national or international scholarship information
+                {{ $t("subDesc8") }}
               </p>
             </div>
           </div>

@@ -21,52 +21,53 @@
           class="flex items-start justify-center text-center text-grey-lightest mt-24 px-8"
         >
           <div class="md:w-1/5 xs:w-1/3">
-            <div class="font-bold text-lg">Services</div>
+            <div class="font-bold text-lg">{{ $t("service") }}</div>
             <div
               class="flex flex-col flex-wrap  items-center font-thin text-sm mt-4 text-black opacity-75"
             >
-              <a href="#" class="no-underline text-black"
-                >Personalized tutoring</a
-              >
-              <a href="#" class="no-underline mt-2">Olympiad preparation</a>
-              <a href="#" class="no-underline text-grey-lightest mt-2"
-                >Peer review</a
-              >
-              <a href="#" class="no-underline text-grey-lightest mt-2"
-                >Classmate group</a
-              >
-              <a href="#" class="no-underline text-grey-lightest mt-2"
-                >Homework evaluation</a
-              >
+              <a href="#" class="no-underline text-black">{{ $t("srvc1") }}</a>
+              <a href="#" class="no-underline mt-2">{{ $t("srvc2") }}</a>
+              <a href="#" class="no-underline text-grey-lightest mt-2">{{
+                $t("srvc3")
+              }}</a>
+              <a href="#" class="no-underline text-grey-lightest mt-2">{{
+                $t("srvc4")
+              }}</a>
+              <a href="#" class="no-underline text-grey-lightest mt-2">{{
+                $t("srvc5")
+              }}</a>
             </div>
           </div>
           <div class="md:w-1/5 xs:w-1/3">
-            <div class="font-bold text-lg">Application</div>
+            <div class="font-bold text-lg">{{ $t("app") }}</div>
             <div
               class="flex flex-col flex-wrap items-center font-thin text-sm mt-4 text-black opacity-75"
             >
-              <a href="#" class="no-underline text-grey-lightest">
-                Online learning platform
+              <!-- <a href="#" class="no-underline text-grey-lightest">
                 <span class="md:inline-block xs:hidden">(web)</span>
-              </a>
+              </a> -->
             </div>
           </div>
           <div class="md:w-1/5 xs:w-1/3">
-            <div class="font-bold text-lg">Company</div>
+            <div class="font-bold text-lg">{{ $t("company") }}</div>
             <div
               class="flex flex-col flex-wrap  items-center font-thin text-sm text-black opacity-75 mt-4"
             >
-              <a href="#" class="no-underline text-grey-lightest">About Us</a>
-              <a href="#" class="no-underline text-grey-lightest mt-2">Jobs</a>
-              <a href="#" class="no-underline text-grey-lightest mt-2"
-                >Sitemap</a
-              >
+              <a href="#" class="no-underline text-grey-lightest">{{
+                $t("about")
+              }}</a>
+              <a href="#" class="no-underline text-grey-lightest mt-2">{{
+                $t("job")
+              }}</a>
+              <a href="#" class="no-underline text-grey-lightest mt-2">{{
+                $t("sitemap")
+              }}</a>
             </div>
           </div>
         </div>
         <div class="flex flex-wrap mt-12 items-center justify-center p-3">
           <div class="text-grey-lightest text-sm opacity-75 text-center">
-            <p>All rights reserved.</p>
+            <p>{{ $t("right") }}</p>
             &copy; copyright by
             <a
               href="https://github.com/Azjargal13"

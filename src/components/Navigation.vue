@@ -31,19 +31,19 @@
         href="#"
         v-scroll-to="'#whoWeAre'"
         class="block mt-4 lg:inline-block lg:mt-0 sm:text-right font-medium no-underline hover:text-main-green hover:underline mr-4"
-        >who we are</a
+        >{{ $t("nav1") }}</a
       >
       <a
         href="#"
         v-scroll-to="'#whatWeDo'"
         class="block mt-4 lg:inline-block sm:text-right lg:mt-0 font-medium no-underline text-grey-lightest hover:underline hover:text-main-green mr-4"
-        >what we do</a
+        >{{ $t("nav2") }}</a
       >
       <a
         href="#"
         v-scroll-to="'#whyWe'"
         class="block mt-4 lg:inline-block sm:text-right lg:mt-0 font-medium no-underline text-grey-lightest hover:underline  hover:text-main-green mr-4"
-        >why ByteAcads?</a
+        >{{ $t("nav3") }}</a
       >
     </nav>
     <nav class="text-yellow-300 font-medium">
